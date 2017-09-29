@@ -13,6 +13,7 @@ const downloader = function (opts) {
     httpOptions: { timeout: 0 }
   });
   this.bucket = opts.bucket;
+  this.concurrency = opts.concurrency;
 
   this.getBuffers = (files, cb) => {
     async.mapLimit(files, 5, (fileUrl, cb) => {
@@ -55,7 +56,7 @@ const downloader = function (opts) {
 
         const config = {
           client: this.s3,
-          concurrency: 6,
+          concurrency: this.concurrency,
           params: {
             Key: filePath,
             Bucket: this.bucket

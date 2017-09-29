@@ -1,5 +1,5 @@
 {
-  "name": "s3Torrent",
+  "name": "s3-torrent",
   "version": "1.0.0",
   "description": "",
   "main": "downloader.js",

@@ -4,6 +4,10 @@
   "description": "",
   "homepage": "https://github.com/edgard-tanchenec2/s3Torrent",
   "main": "downloader.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edgard-tanchenec2/s3Torrent.git"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

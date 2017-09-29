@@ -2,6 +2,7 @@
   "name": "s3-torrent",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/edgard-tanchenec2/s3Torrent",
   "main": "downloader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

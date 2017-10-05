@@ -1,9 +1,9 @@
 {
   "name": "s3-torrent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "homepage": "https://github.com/edgard-tanchenec2/s3Torrent",
-  "main": "downloader.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/edgard-tanchenec2/s3Torrent.git"
